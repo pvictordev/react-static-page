@@ -12,13 +12,19 @@ body {
 nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background-color: #21222A;
   height: 90px;
   padding: 30px 25px;
 }
-
+.nav--logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 .nav--logo_text, .nav--title {
-  margin: 0;
+
 }
 
 .nav--logo_text {
@@ -36,6 +42,7 @@ nav {
 .nav--icon {
   height: 30px;
   margin-right: 7px;
+  
 }
 
 main {
@@ -65,4 +72,14 @@ main {
 .main--facts > li::marker {
   font-size: 1.4rem;
   color: #61DAFB;
+}
+
+@media(max-width:435px) {
+  .nav--title {
+    display: none;
+  }
+  .nav--logo {
+   margin: 0 auto;
+  }
+
 }
