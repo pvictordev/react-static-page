@@ -5,7 +5,7 @@ export default function Navbar() {
         <nav>
             <img src={"./src/img/react-icon-small.png"} className="nav--icon" />
             <h3 className="nav--logo_text">ReactFacts</h3>
-            <h4 className="nav--title">React Course - Project 1</h4>
+            <h4 className="nav--title">React Static Page</h4>
         </nav>
     )
 }
