@@ -1,2 +1,2 @@
 # React Static Page
-## React Static Page, first time building with Vite
+## React Static Page, static website built with Vite
