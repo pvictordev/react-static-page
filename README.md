@@ -1,2 +1,2 @@
 # React Static Page
-## React Static Page, static website built with Vite
+## React Static Page, webpage built with Vite
